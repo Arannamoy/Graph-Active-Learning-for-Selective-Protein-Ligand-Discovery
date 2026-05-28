@@ -15,3 +15,6 @@
 - Molecular Docking Tutorial with AutoDock Vina
 - AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function (Trott & Olson, 2010)
 
+### Resources
+- https://github.com/nrflynn2/ml-drug-discovery
+- 
