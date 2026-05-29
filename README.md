@@ -17,4 +17,3 @@
 
 ### Resources
 - https://github.com/nrflynn2/ml-drug-discovery
-- 
