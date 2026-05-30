@@ -16,7 +16,7 @@
 - AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function (Trott & Olson, 2010)
 
 ### Tech Stack
-1. [ ] RDKit
+1. [ x ] RDKit
 2. [ ] PyTorch Geometric
 3. [ ] DeepChem
 4. [ ] TorchDrug
