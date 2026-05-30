@@ -30,6 +30,156 @@
 12. [ ] FastAPI
 13. [ ] Docker
 
+### RDKit Must-Know Checklist
+
+## 1. Molecule Basics
+
+- [x] Install RDKit
+- [x] Chem.MolFromSmiles()
+- [x] Chem.MolToSmiles()
+- [ ] Canonical SMILES
+- [ ] Explicit vs Implicit Hydrogens
+- [ ] Atom Objects
+- [ ] Bond Objects
+- [ ] Atom Indexing
+- [ ] Molecular Formula
+
+---
+
+## 2. SMILES Fundamentals
+
+- [ ] Organic Subset Atoms
+- [ ] Branches ()
+- [ ] Ring Closures (1,2,3...)
+- [ ] Aromatic Atoms (c, n, o)
+- [ ] Charges ([NH4+])
+- [ ] Isotopes ([13C])
+- [ ] Chirality (@, @@)
+- [ ] Dative Bonds (->)
+- [ ] Quadruple Bonds ($)
+
+---
+
+## 3. SMARTS Fundamentals
+
+- [ ] Chem.MolFromSmarts()
+- [ ] Atom Queries ([#6], [#7])
+- [ ] Logical Operators (, ; &)
+- [ ] Recursive SMARTS
+- [ ] QueryAtom
+- [ ] DescribeQuery()
+- [ ] SMARTS vs SMILES
+
+---
+
+## 4. Substructure Searching
+
+- [ ] HasSubstructMatch()
+- [ ] GetSubstructMatch()
+- [ ] GetSubstructMatches()
+- [ ] SMARTS Pattern Search
+- [ ] Functional Group Detection
+
+---
+
+## 5. Molecular Properties
+
+- [ ] Molecular Weight
+- [ ] Exact Molecular Weight
+- [ ] LogP
+- [ ] TPSA
+- [ ] H-Bond Donors
+- [ ] H-Bond Acceptors
+- [ ] Rotatable Bonds
+- [ ] Ring Count
+
+---
+
+## 6. Molecular Fingerprints
+
+- [ ] Morgan Fingerprint (ECFP)
+- [ ] RDK Fingerprint
+- [ ] MACCS Keys
+- [ ] Bit Vectors
+- [ ] Fingerprint Similarity
+- [ ] Tanimoto Similarity
+
+---
+
+## 7. Molecular Visualization
+
+- [ ] Draw Molecules
+- [ ] Draw Grids
+- [ ] Highlight Substructures
+- [ ] Export Images
+
+---
+
+## 8. Molecular Graphs (GNN Preparation)
+
+- [ ] Atoms as Nodes
+- [ ] Bonds as Edges
+- [ ] Atom Features
+- [ ] Bond Features
+- [ ] Mol → Graph Conversion
+- [ ] PyTorch Geometric Integration
+
+---
+
+## 9. Dataset Processing
+
+- [ ] Read SMILES Dataset
+- [ ] Molecule Validation
+- [ ] Invalid SMILES Removal
+- [ ] Canonicalization
+- [ ] Deduplication
+
+---
+
+## 10. Drug Discovery Essentials
+
+- [ ] ChEMBL Data Processing
+- [ ] PubChem Data Processing
+- [ ] Descriptor Generation
+- [ ] Fingerprint Generation
+- [ ] QSAR Features
+- [ ] DTI Feature Engineering
+
+---
+
+# Optional (Later)
+
+- [ ] Conformers
+- [ ] 3D Coordinates
+- [ ] UFF/MMFF Optimization
+- [ ] Murcko Scaffold
+- [ ] BRICS Fragmentation
+- [ ] Reaction SMARTS
+- [ ] CXSMILES / CXSMARTS
+- [ ] Pharmacophore Features
+
+---
+
+# Ignore for Now
+
+- [ ] RDKit C++ Internals
+- [ ] Polymer Chemistry Features
+- [ ] Substance Groups
+- [ ] Advanced QueryQuery Matching
+- [ ] Rare Organometallic Edge Cases
+
+---
+
+# Target Outcome
+
+- [ ] Read SMILES
+- [ ] Generate Descriptors
+- [ ] Generate Fingerprints
+- [ ] Perform SMARTS Search
+- [ ] Convert Molecule to Graph
+- [ ] Train GNN
+- [ ] Build DTI Pipeline
+
 ### Resources
 - [ ] https://github.com/nrflynn2/ml-drug-discovery
 - [ ] https://greglandrum.github.io/rdkit-blog/?utm_source=chatgpt.com
