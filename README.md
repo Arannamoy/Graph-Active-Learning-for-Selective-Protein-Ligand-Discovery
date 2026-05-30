@@ -16,24 +16,24 @@
 - AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function (Trott & Olson, 2010)
 
 ### Tech Stack
-1. [] RDKit
-2. [] PyTorch Geometric
-3. [] DeepChem
-4. [] TorchDrug
-5. [] ESM
-6. [] OpenFold
-7. [] AutoDock Vina
-8. [] OpenMM
-9. [] Scanpy
-10. [] Captum
-11. [] MLflow
-12. [] FastAPI
-13. [] Docker
+1. [ ] RDKit
+2. [ ] PyTorch Geometric
+3. [ ] DeepChem
+4. [ ] TorchDrug
+5. [ ] ESM
+6. [ ] OpenFold
+7. [ ] AutoDock Vina
+8. [ ] OpenMM
+9. [ ] Scanpy
+10. [ ] Captum
+11. [ ] MLflow
+12. [ ] FastAPI
+13. [ ] Docker
 
 ### Resources
-- [] https://github.com/nrflynn2/ml-drug-discovery
-- [] https://greglandrum.github.io/rdkit-blog/?utm_source=chatgpt.com
-- [] https://projects.volkamerlab.org/teachopencadd/?utm_source=chatgpt.com
-- [] https://docs.datamol.io/stable/
+- [ ] https://github.com/nrflynn2/ml-drug-discovery
+- [ ] https://greglandrum.github.io/rdkit-blog/?utm_source=chatgpt.com
+- [ ] https://projects.volkamerlab.org/teachopencadd/?utm_source=chatgpt.com
+- [ ] https://docs.datamol.io/stable/
   
   
