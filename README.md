@@ -48,15 +48,15 @@
 
 ## 2. SMILES Fundamentals
 
-- [ ] Organic Subset Atoms
-- [ ] Branches ()
-- [ ] Ring Closures (1,2,3...)
-- [ ] Aromatic Atoms (c, n, o)
-- [ ] Charges ([NH4+])
-- [ ] Isotopes ([13C])
-- [ ] Chirality (@, @@)
-- [ ] Dative Bonds (->)
-- [ ] Quadruple Bonds ($)
+- [X] Organic Subset Atoms
+- [X] Branches ()
+- [X] Ring Closures (1,2,3...)
+- [X] Aromatic Atoms (c, n, o)
+- [X] Charges ([NH4+])
+- [X] Isotopes ([13C])
+- [X] Chirality (@, @@)
+- [X] Dative Bonds (->)
+- [X] Quadruple Bonds ($)
 
 ---
 
