@@ -37,12 +37,12 @@
 - [x] Install RDKit
 - [x] Chem.MolFromSmiles()
 - [x] Chem.MolToSmiles()
-- [ ] Canonical SMILES
-- [ ] Explicit vs Implicit Hydrogens
-- [ ] Atom Objects
-- [ ] Bond Objects
-- [ ] Atom Indexing
-- [ ] Molecular Formula
+- [X] Canonical SMILES
+- [X] Explicit vs Implicit Hydrogens
+- [X] Atom Objects
+- [X] Bond Objects
+- [X] Atom Indexing
+- [X] Molecular Formula
 
 ---
 
