@@ -62,23 +62,23 @@
 
 ## 3. SMARTS Fundamentals
 
-- [ ] Chem.MolFromSmarts()
-- [ ] Atom Queries ([#6], [#7])
-- [ ] Logical Operators (, ; &)
-- [ ] Recursive SMARTS
-- [ ] QueryAtom
-- [ ] DescribeQuery()
-- [ ] SMARTS vs SMILES
+- [X] Chem.MolFromSmarts()
+- [x] Atom Queries ([#6], [#7])
+- [x] Logical Operators (, ; &)
+- [x] Recursive SMARTS
+- [x] QueryAtom
+- [x] DescribeQuery()
+- [x] SMARTS vs SMILES
 
 ---
 
 ## 4. Substructure Searching
 
-- [ ] HasSubstructMatch()
-- [ ] GetSubstructMatch()
-- [ ] GetSubstructMatches()
-- [ ] SMARTS Pattern Search
-- [ ] Functional Group Detection
+- [x] HasSubstructMatch()
+- [x] GetSubstructMatch()
+- [x] GetSubstructMatches()
+- [x] SMARTS Pattern Search
+- [x] Functional Group Detection
 
 ---
 
