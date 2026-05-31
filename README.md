@@ -84,14 +84,14 @@
 
 ## 5. Molecular Properties
 
-- [ ] Molecular Weight
-- [ ] Exact Molecular Weight
-- [ ] LogP
-- [ ] TPSA
-- [ ] H-Bond Donors
-- [ ] H-Bond Acceptors
-- [ ] Rotatable Bonds
-- [ ] Ring Count
+- [X] Molecular Weight
+- [X] Exact Molecular Weight
+- [X] LogP
+- [X] TPSA
+- [X] H-Bond Donors
+- [X] H-Bond Acceptors
+- [X] Rotatable Bonds
+- [X] Ring Count
 
 ---
 
