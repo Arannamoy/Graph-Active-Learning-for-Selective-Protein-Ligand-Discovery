@@ -97,21 +97,21 @@
 
 ## 6. Molecular Fingerprints
 
-- [ ] Morgan Fingerprint (ECFP)
-- [ ] RDK Fingerprint
-- [ ] MACCS Keys
-- [ ] Bit Vectors
-- [ ] Fingerprint Similarity
-- [ ] Tanimoto Similarity
+- [X] Morgan Fingerprint (ECFP)
+- [X] RDK Fingerprint
+- [X] MACCS Keys
+- [X] Bit Vectors
+- [X] Fingerprint Similarity
+- [X] Tanimoto Similarity
 
 ---
 
 ## 7. Molecular Visualization
 
-- [ ] Draw Molecules
-- [ ] Draw Grids
-- [ ] Highlight Substructures
-- [ ] Export Images
+- [X] Draw Molecules
+- [X] Draw Grids
+- [X] Highlight Substructures
+- [X] Export Images
 
 ---
 
