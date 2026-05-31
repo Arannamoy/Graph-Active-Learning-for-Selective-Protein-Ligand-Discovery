@@ -117,12 +117,12 @@
 
 ## 8. Molecular Graphs (GNN Preparation)
 
-- [ ] Atoms as Nodes
-- [ ] Bonds as Edges
-- [ ] Atom Features
-- [ ] Bond Features
-- [ ] Mol → Graph Conversion
-- [ ] PyTorch Geometric Integration
+- [X] Atoms as Nodes
+- [X] Bonds as Edges
+- [X] Atom Features
+- [X] Bond Features
+- [X] Mol → Graph Conversion
+- [X] PyTorch Geometric Integration
 
 ---
 
