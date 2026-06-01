@@ -314,6 +314,111 @@ project/
 └── README.md
 ```-->
 
+## Hardware Requirements
+
+### Minimum Development Environment
+
+| Component | Requirement                   |
+| --------- | ----------------------------- |
+| CPU       | Apple M1 / Ryzen 7 / Intel i7 |
+| RAM       | 16 GB                         |
+| Storage   | 256 GB SSD                    |
+| OS        | Linux / macOS                 |
+
+### Recommended Development Environment
+
+| Component | Requirement                               |
+| --------- | ----------------------------------------- |
+| CPU       | Apple M5 / Ryzen 7 8845HS / Intel Ultra 7 |
+| RAM       | 24–32 GB                                  |
+| Storage   | 512 GB SSD or higher                      |
+| OS        | Linux (Preferred) or macOS                |
+
+---
+
+## Development Philosophy
+
+This project prioritizes **local reproducible development**.
+
+Cloud notebook environments such as:
+
+* Google Colab
+* Kaggle Notebooks
+
+are intentionally not used as primary development platforms due to:
+
+* Frequent dependency changes
+* Package version incompatibilities
+* RDKit installation inconsistencies
+* PyTorch Geometric version conflicts
+* AutoDock Vina integration issues
+* Reproducibility challenges
+
+Instead, the project is designed to run in a controlled local environment using:
+
+* Python Virtual Environment (`venv`)
+* Conda Environment
+* Docker Containers (Future Support)
+
+---
+
+## Local Development Stack
+
+```text
+Python 3.12
+PyTorch
+PyTorch Geometric
+RDKit
+AutoDock Vina
+NumPy
+Pandas
+Matplotlib
+Open Babel
+```
+
+---
+
+## Reproducibility Goal
+
+A primary goal of this project is to ensure that every experiment can be reproduced on a local machine without relying on cloud-specific configurations.
+
+The repository will maintain:
+
+* Fixed package versions
+* Dependency lock files
+* Environment setup scripts
+* Reproducible training pipelines
+
+to guarantee consistent results across different systems.
+
+---
+
+## Computational Considerations
+
+The proposed Graph Active Learning framework is designed to reduce expensive docking evaluations by intelligently selecting candidate molecules.
+
+Instead of:
+
+```text
+1,000,000 Molecules
+        ↓
+1,000,000 Docking Runs
+```
+
+the framework aims for:
+
+```text
+1,000,000 Molecules
+        ↓
+Graph Neural Network Screening
+        ↓
+Graph Active Learning Selection
+        ↓
+1,000–10,000 Docking Runs
+```
+
+thereby reducing computational cost while preserving discovery performance.
+
 ---
 
 # Current Status
