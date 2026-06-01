@@ -313,6 +313,375 @@ project/
 ├── results/
 └── README.md
 ```-->
+## Prerequisite Knowledge
+
+This project sits at the intersection of Graph Machine Learning, Drug Discovery, Cheminformatics, Bioinformatics, and Active Learning. The following topics are recommended before contributing to the project.
+
+---
+
+# 1. Programming Fundamentals
+
+### Required Skills
+
+* Python Programming
+* Object-Oriented Programming (OOP)
+* Data Structures and Algorithms
+* NumPy
+* Pandas
+* Matplotlib
+
+### Recommended References
+
+#### Books
+
+* Python Crash Course — Eric Matthes
+* Fluent Python — Luciano Ramalho
+
+#### Documentation
+
+* Python Official Documentation
+* NumPy Documentation
+* Pandas Documentation
+
+---
+
+# 2. Machine Learning
+
+### Required Topics
+
+* Supervised Learning
+* Regression
+* Classification
+* Model Evaluation
+* Cross Validation
+* Bias-Variance Tradeoff
+
+### Recommended Books
+
+* Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow — Aurélien Géron
+* Introduction to Statistical Learning (ISLR)
+
+---
+
+# 3. Deep Learning
+
+### Required Topics
+
+* Neural Networks
+* Backpropagation
+* Loss Functions
+* Optimization
+* Regularization
+
+### Recommended Books
+
+* Deep Learning — Ian Goodfellow
+* Dive Into Deep Learning (D2L)
+
+---
+
+# 4. Graph Neural Networks (Core Requirement)
+
+### Required Topics
+
+* Graph Representation
+* Node Features
+* Edge Features
+* Message Passing
+* Graph Classification
+* Graph Regression
+
+### Models to Study
+
+* GCN
+* GraphSAGE
+* GAT
+* GIN
+* Graph Transformers
+
+### Recommended Books
+
+* Graph Representation Learning — William Hamilton
+
+### Recommended Papers
+
+#### GraphSAGE
+
+Hamilton et al. (2017)
+
+"Inductive Representation Learning on Large Graphs"
+
+#### GAT
+
+Veličković et al. (2018)
+
+"Graph Attention Networks"
+
+#### GIN
+
+Xu et al. (2019)
+
+"How Powerful are Graph Neural Networks?"
+
+---
+
+# 5. PyTorch & PyTorch Geometric
+
+### Required Topics
+
+* Dataset
+* DataLoader
+* Training Loop
+* Custom Models
+* Graph Data Structures
+
+### Recommended References
+
+* PyTorch Official Documentation
+* PyTorch Geometric Documentation
+
+---
+
+# 6. Cheminformatics
+
+### Required Topics
+
+* Molecules as Graphs
+* SMILES Representation
+* Molecular Fingerprints
+* Molecular Descriptors
+* Drug-Likeness
+
+### Recommended Book
+
+* RDKit Cookbook
+
+### Recommended References
+
+* RDKit Documentation
+* Practical Cheminformatics Tutorials
+
+---
+
+# 7. Drug Discovery Fundamentals
+
+### Required Topics
+
+* Proteins
+* Ligands
+* Binding Affinity
+* Binding Pocket
+* Drug Discovery Pipeline
+
+### Recommended Books
+
+* An Introduction to Medicinal Chemistry — Graham Patrick
+* Drug Discovery and Development — Raymond Hill
+
+---
+
+# 8. Protein-Ligand Interaction
+
+### Required Topics
+
+* Protein Structure
+* Ligand Binding
+* Hydrogen Bonds
+* Hydrophobic Interactions
+* Salt Bridges
+* Binding Energy
+
+### Recommended Resources
+
+* RCSB Protein Data Bank Tutorials
+* Molecular Docking Tutorials
+
+---
+
+# 9. Molecular Docking
+
+### Required Topics
+
+* Docking Theory
+* Search Space
+* Scoring Functions
+* Binding Affinity
+
+### Tools
+
+* AutoDock Vina
+* PyMOL
+* Discovery Studio Visualizer
+
+### Recommended Papers
+
+#### AutoDock Vina
+
+Trott & Olson (2010)
+
+"AutoDock Vina: Improving the Speed and Accuracy of Docking"
+
+---
+
+# 10. Active Learning (Core Research Area)
+
+### Required Topics
+
+* Uncertainty Sampling
+* Diversity Sampling
+* Query Strategies
+* Exploration vs Exploitation
+
+### Recommended Book
+
+* Active Learning — Burr Settles
+
+### Recommended Papers
+
+#### Active Learning Literature Survey
+
+Settles (2009)
+
+#### MolPAL
+
+Graff et al.
+
+"Molecule Discovery using Active Learning"
+
+---
+
+# 11. Drug Discovery Datasets
+
+### Essential Datasets
+
+#### Protein-Ligand Interaction
+
+* BindingDB
+* ChEMBL
+* PDBbind
+
+#### Toxicity
+
+* Tox21
+* ClinTox
+
+#### Molecular Libraries
+
+* ZINC
+
+---
+
+# 12. Multi-Objective Optimization
+
+### Required Topics
+
+* Pareto Front
+* Multi-Objective Search
+* Trade-Off Analysis
+
+### Optimization Objectives
+
+* Binding Affinity
+* Toxicity
+* Selectivity
+* Drug-Likeness
+* Molecular Diversity
+
+### Recommended Papers
+
+* ParetoDrug
+* MO-MEMES
+* Multi-Objective Virtual Screening Literature
+
+---
+
+# 13. Selectivity & Off-Target Analysis
+
+### Required Topics
+
+* Target Proteins
+* Off-Target Proteins
+* Cross-Reactivity
+* Selectivity Index
+
+### Importance
+
+A molecule with excellent affinity may still fail if it strongly binds to unintended proteins.
+
+This project explicitly evaluates:
+
+* Target Affinity
+* Off-Target Interactions
+* Toxicity Risk
+
+before candidate prioritization.
+
+---
+
+# Suggested Learning Roadmap
+
+```text
+Phase 1
+--------
+Python
+NumPy
+Pandas
+PyTorch
+
+Phase 2
+--------
+Graph Theory
+GCN
+GraphSAGE
+GAT
+GIN
+
+Phase 3
+--------
+RDKit
+SMILES
+Molecular Graphs
+
+Phase 4
+--------
+Protein-Ligand Interaction
+BindingDB
+PDBbind
+
+Phase 5
+--------
+AutoDock Vina
+PyMOL
+
+Phase 6
+--------
+Active Learning
+MolPAL
+
+Phase 7
+--------
+Multi-Objective Optimization
+Selectivity Analysis
+Toxicity Prediction
+
+Phase 8
+--------
+Full Project Integration
+```
+
+---
+
+# Expected Background
+
+A contributor should ideally have:
+
+* Intermediate Python Knowledge
+* Basic Machine Learning Knowledge
+* Basic Deep Learning Knowledge
+* Interest in Drug Discovery
+* Familiarity with Graph Neural Networks
+
+No prior background in biology or chemistry is strictly required, although it is highly beneficial.
 
 ## Hardware Requirements
 
